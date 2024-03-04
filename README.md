@@ -1,30 +1,47 @@
-# React + TypeScript + Vite
+# Responsive Task Management App using Vite, React with Ts and Bootstrap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Welcome to the Responsive Task Management App README! This application allows users to create tasks and classify them as active or complete. It's built using a combination of React with TypeScript for the web, Bootstrap for layout and design, and Vite as the build tool. This app provides a simple  effective interface for managing tasks. Users can create new tasks, mark them as active or complete, and keep track of their progress and then delete them.
+During the development of this project, several challenges were encountered:
+- Managing the state between components
+- Making the same component render based on different conditions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application consists of several components, wrapped by the parent component App:
+- Container
+- Tabs
+- TaskInput
+- Tasks
 
-## Expanding the ESLint configuration
+## Keys Topics
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React with typeScript
+  - Porps
+  - Hooks such as useState & useEffect
+  - Ternary operator
+  - Components
+  - map and filter functions
+ - Bootstrap
+   - Grid
+   - flex
+   - nav-tabs
+  - React spinners
+    - SuncLoader
 
-- Configure the top-level `parserOptions` property like this:
+##  How to Install and Run the Project
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+To inistall & run the application locally, follow these steps:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Clone the repository to your local machine.
+- Install dependencies using npm install.
+- Run the development server using npm run dev.
+- Open your browser and navigate to http://localhost:5173 to view the app.
+
+## How to Use the Project
+
+Once the application is running, you can start creating tasks, delete and managing them using the intuitive interface.
+
+## Credits
+
+Special thanks to the creators of Vite, React js, Bootstrap and React Spinners for their amazing tools and documentations.
+
